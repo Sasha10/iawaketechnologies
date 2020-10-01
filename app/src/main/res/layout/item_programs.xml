@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.rishabhharit.roundedimageview.RoundedImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cornerRadius="8dp"
+            android:id="@+id/cover"
+            app:roundedCorners="all" />
+       <TextView
+           android:textSize="16sp"
+           android:textColor="@color/colorWhite"
+           android:gravity="center"
+           android:id="@+id/title"
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+
+</RelativeLayout>

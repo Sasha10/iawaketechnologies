@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#723b63</color>
+    <color name="colorPrimaryDark">#90723b63</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="background">#2e242d</color>
+    <color name="mainColor">#723b63</color>
+    <color name="btnColor">#6696d7</color>
+
+    <color name="colorGreen">#067952</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="ripple">#90723b63</color>
+
+
+</resources>

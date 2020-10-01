@@ -1,0 +1,27 @@
+<resources>
+    //titles
+    <string name="app_name">iAwake</string>
+
+    //errors
+    <string name="error">Error</string>
+    <string name="error_no_intenet_connection">Check your internet connection</string>
+    <string name="error_converting_data">Data conversion error</string>
+
+
+    //buttons
+    <string name="btn_details">Details</string>
+
+    //Track
+    <string name="track">track</string>
+
+    <plurals name="track_plurals">
+        <item quantity="zero">%d tracks</item>
+        <item quantity="one">%d track</item>
+        <item quantity="few">%d tracks</item>
+        <item quantity="many">%d tracks</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+
+</resources>
+
+
